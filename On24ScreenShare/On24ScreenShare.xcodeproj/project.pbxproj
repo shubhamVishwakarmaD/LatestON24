@@ -65,6 +65,7 @@
 		3C25B81F22F7D30000AEBC7C /* OpenTokLive.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenTokLive.entitlements; sourceTree = "<group>"; };
 		3CC0876722F8CBD500E5BADB /* OTBroadcastExtHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTBroadcastExtHelper.h; sourceTree = "<group>"; };
 		3CC0876822F8CBD500E5BADB /* OTBroadcastExtHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTBroadcastExtHelper.m; sourceTree = "<group>"; };
+		8485F47E2C19CFA8005F2DA2 /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
 		9C334F38F6FE0619D071C79B /* Pods-On24ScreenShare-OpenTok Live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-On24ScreenShare-OpenTok Live.release.xcconfig"; path = "Target Support Files/Pods-On24ScreenShare-OpenTok Live/Pods-On24ScreenShare-OpenTok Live.release.xcconfig"; sourceTree = "<group>"; };
 		C26DC5EB2BF4BA5D0049758E /* OTBroadcastExtAudioDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTBroadcastExtAudioDevice.m; sourceTree = "<group>"; };
 		C26DC5EC2BF4BA5D0049758E /* OTBroadcastExtAudioDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTBroadcastExtAudioDevice.h; sourceTree = "<group>"; };
@@ -142,6 +143,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		8485F47D2C19CF8D005F2DA2 /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				8485F47E2C19CFA8005F2DA2 /* ci_post_clone.sh */,
+			);
+			path = ci_scripts;
+			sourceTree = "<group>";
+		};
 		C2ACAE0D2BECCE13007179E5 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +187,7 @@
 		D44260EA185F81D800E23699 = {
 			isa = PBXGroup;
 			children = (
+				8485F47D2C19CF8D005F2DA2 /* ci_scripts */,
 				D442614B185F92BF00E23699 /* README.md */,
 				C2ACAE202BECCE13007179E5 /* On24ScreenShare */,
 				3C25B7FE22F7C7BF00AEBC7C /* OpenTok Live */,
